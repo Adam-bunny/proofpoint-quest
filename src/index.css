@@ -26,11 +26,11 @@
     /* Gamification colors */
     --success: 142 76% 36%;
     --success-foreground: 255 255 255;
-    --warning: 48 96% 53%;
+    --warning: 38 92% 50%;
     --warning-foreground: 0 0% 9%;
-    --bronze: 25 95% 53%;
+    --bronze: 25 75% 45%;
     --silver: 0 0% 75%;
-    --gold: 48 96% 53%;
+    --gold: 45 85% 60%;
     
     /* Secondary palette */
     --secondary: 220 14.3% 95.9%;
