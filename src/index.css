@@ -2,41 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* ProofWork Hub Design System - Gamified Task Management */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
+    /* Base colors - Clean and modern */
+    --background: 248 250 252;
+    --foreground: 226 232 240;
+    
+    /* Card system */
+    --card: 255 255 255;
+    --card-foreground: 51 65 85;
+    
+    /* UI elements */
+    --popover: 255 255 255;
+    --popover-foreground: 51 65 85;
+    
+    /* Brand colors - Blue/Purple gradient theme */
+    --primary: 239 68% 68%;
+    --primary-foreground: 255 255 255;
+    --primary-glow: 244 63% 88%;
+    
+    /* Gamification colors */
+    --success: 142 76% 36%;
+    --success-foreground: 255 255 255;
+    --warning: 48 96% 53%;
+    --warning-foreground: 0 0% 9%;
+    --bronze: 25 95% 53%;
+    --silver: 0 0% 75%;
+    --gold: 48 96% 53%;
+    
+    /* Secondary palette */
+    --secondary: 220 14.3% 95.9%;
+    --secondary-foreground: 220 8.9% 46.1%;
+    
+    /* Neutral tones */
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+    
+    --accent: 220 14.3% 95.9%;
+    --accent-foreground: 220 8.9% 46.1%;
+    
+    /* States */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    
+    /* Borders and inputs */
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 239 68% 68%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(239 68% 68%), hsl(244 63% 88%));
+    --gradient-success: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 76% 46%));
+    --gradient-card: linear-gradient(145deg, hsl(255 255 255 / 0.8), hsl(255 255 255 / 0.4));
+    
+    /* Shadows */
+    --shadow-soft: 0 1px 3px 0 hsl(0 0% 0% / 0.1), 0 1px 2px 0 hsl(0 0% 0% / 0.06);
+    --shadow-medium: 0 4px 6px -1px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.06);
+    --shadow-large: 0 10px 15px -3px hsl(0 0% 0% / 0.1), 0 4px 6px -2px hsl(0 0% 0% / 0.05);
+    --shadow-glow: 0 0 20px hsl(239 68% 68% / 0.3);
+    
+    /* Spacing and sizing */
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
